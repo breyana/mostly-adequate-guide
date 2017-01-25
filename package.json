@@ -1,0 +1,21 @@
+{
+  "name": "mostly-adequate-guide",
+  "version": "1.0.0",
+  "description": "[![cover](images/cover.png)](SUMMARY.md)",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha ./code/part1_exercises/exercises/curry/curry_exercises_spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/breyana/mostly-adequate-guide.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/breyana/mostly-adequate-guide/issues"
+  },
+  "homepage": "https://github.com/breyana/mostly-adequate-guide#readme"
+}
