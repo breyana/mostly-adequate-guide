@@ -11,9 +11,9 @@ How to Stop Micromanaging Everything](https://medium.com/javascript-scene/the-tw
 
 ## Specifications
 
-- [ ] Read the [Mostly Adequate Guide to Functional Programming](https://drboolean.gitbooks.io/mostly-adequate-guide/content/) through Chapter 8: Tupperware
+- [x] Read the [Mostly Adequate Guide to Functional Programming](https://drboolean.gitbooks.io/mostly-adequate-guide/content/) through Chapter 8: Tupperware
 - [ ] Complete the exercises in the Mostly Adequate Guide (note: there aren't exercises after each chapter - just the ones on Ch 4: Currying, Ch: 5: Coding by Composing, and Ch: 8 Tupperware).
-- [ ] Practice these concepts by completing at least [5 Functional Programming exercises](https://www.codewars.com/kata/latest/my-languages?tags=Functional+Programming) on 
+- [x] Practice these concepts by completing at least [5 Functional Programming exercises](https://www.codewars.com/kata/latest/my-languages?tags=Functional+Programming) on 
 
 -OR-
 
@@ -22,7 +22,7 @@ How to Stop Micromanaging Everything](https://medium.com/javascript-scene/the-tw
 CodeWars (just a heads up: you're required to answer a couple of super basic JS questions to sign up for CodeWars). BONUS: Do more if you get through 5 exercises by the end of the cycle.
 
 ## Extra Work Done:
-- [ ] Watch FunFunFunction's videos on [Functional Programming](https://www.youtube.com/playlist?list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84)
+- [x] Watch FunFunFunction's videos on [Functional Programming](https://www.youtube.com/playlist?list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84)
 - [ ] Re-create a new learning tool as an alternative to the Mostly Adequate Guide
 
  
@@ -34,6 +34,13 @@ CodeWars (just a heads up: you're required to answer a couple of super basic JS 
 
 - All exercises in the Mostly Awesome Guide are completed and pushed to GitHub: 25 pts
 - At least 5 exercises on CodeWars are completed: 25 pts
+
+# How to run tests
+```  
+  mocha code/part1_exercises/exercises/curry/curry_exercises_spec.js
+  mocha code/part1_exercises/exercises/compose/compose_exercises_spec.js
+  mocha code/part2_exercises/exercises/applicative/applicative_exercises_spec.js
+  ```
 
 ## Resources
 
