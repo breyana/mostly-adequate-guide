@@ -12,9 +12,10 @@ var localStorage = {};
 // Write a function that add's two possibly null numbers together using Maybe and ap()
 
 var ex1 = function(x, y) {
-  return Maybe.of(_.add).ap(Maybe.of(x)).ap(Maybe.of(y));
+  return Maybe.of(_.add)
+  .ap(Maybe.of(x))
+  .ap(Maybe.of(y));
 };
-
 
 // Exercise 2
 // ==========

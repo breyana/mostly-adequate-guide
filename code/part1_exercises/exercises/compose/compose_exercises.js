@@ -57,14 +57,14 @@ var sanitizeNames = map(_.compose(toLowerCase, _underscore, _.prop('name')));
 // ============
 // Refactor availablePrices with compose.
 
-var availablePrices = function(cars) {
-  var available_cars = _.filter(_.prop('in_stock'), cars);
-  return available_cars.map(function(x){
-    return accounting.formatMoney(x.dollar_value)
-  }).join(', ');
-};
+// var availablePrices = function(cars) {
+//   var available_cars = _.filter(_.prop('in_stock'), cars);
+//   return available_cars.map(function(x){
+//     return accounting.formatMoney(x.dollar_value)
+//   }).join(', ');
+// };
 
-var availablePrices = 
+
 
 
 // Bonus 2:
@@ -76,6 +76,10 @@ var fastestCar = function(cars) {
   var fastest = _.last(sorted);
   return fastest.name + ' is the fastest';
 };
+
+
+
+
 
 
 module.exports = { CARS: CARS,
