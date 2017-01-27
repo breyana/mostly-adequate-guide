@@ -13,7 +13,12 @@ var localStorage = {};
 
 //  ex1 :: Number -> Number -> Maybe Number
 var ex1 = function(x, y) {
-  // write me
+  console.log(_.add.toString())
+  // Maybe.prototype.ap = function(other) {
+  //   return this.isNothing() ? Maybe.of(null) : other.map(this.__value);
+  // };
+  // (Maybe.of(x,y)).ap
+
 };
 
 
@@ -71,5 +76,6 @@ function getComments(i) {
     }, 300);
   });
 }
+
 
 module.exports = {ex1: ex1, ex2: ex2, ex3: ex3, ex4: ex4}
