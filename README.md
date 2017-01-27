@@ -33,9 +33,9 @@ CodeWars (just a heads up: you're required to answer a couple of super basic JS 
 ## Quality Rubric
 
 - All exercises in the Mostly Awesome Guide are completed and pushed to GitHub: 25 pts
-- At least 5 exercises on CodeWars are completed: 25 pts
+- At least 5 exercises on CodeWars are completed: 25 pts (
 
-# How to run tests
+### How to run tests
 ```  
   mocha code/part1_exercises/exercises/curry/curry_exercises_spec.js
   mocha code/part1_exercises/exercises/compose/compose_exercises_spec.js
