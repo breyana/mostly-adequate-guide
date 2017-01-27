@@ -11,7 +11,7 @@ describe("Applicative Exercises", function(){
   });
 
   it('Exercise 2', function(){
-    assert.deepEqual(Maybe.of(5), E.ex2(Maybe.of(2), Maybe.of(3)));
+    assert.deepEqual(Maybe.of(5), E.ex2( Maybe.of(2), Maybe.of(3) ));
     assert.deepEqual(Maybe.of(null), E.ex2(Maybe.of(null), Maybe.of(3)));
   });
 
