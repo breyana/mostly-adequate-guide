@@ -3,7 +3,12 @@
   "version": "1.0.0",
   "description": "[![cover](images/cover.png)](SUMMARY.md)",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-core": "^6.22.1",
+    "babel-preset-latest": "^6.22.0",
+    "lodash": "^4.17.4"
+  },
   "devDependencies": {},
   "scripts": {
     "test": "mocha ./code/part1_exercises/exercises/curry/curry_exercises_spec.js"

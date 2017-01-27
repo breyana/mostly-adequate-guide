@@ -1,7 +1,7 @@
 var E = require('./compose_exercises');
 var assert = require("chai").assert;
 
-describe("Compose Exercises", function(){  
+describe("Compose Exercises", function(){
   var CARS = E.CARS
 
   it('Exercise 1', function(){
@@ -24,7 +24,7 @@ describe("Compose Exercises", function(){
     assert.equal(E.availablePrices(CARS), '$700,000.00, $1,850,000.00');
   });
 
-  it('Bonus 2', function(){
+  it.only('Bonus 2', function(){
     assert.equal(E.fastestCar(CARS), 'Aston Martin One-77 is the fastest');
   });
 });
