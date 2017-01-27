@@ -20,6 +20,10 @@ How to Stop Micromanaging Everything](https://medium.com/javascript-scene/the-tw
 
 CodeWars (just a heads up: you're required to answer a couple of super basic JS questions to sign up for CodeWars). BONUS: Do more if you get through 5 exercises by the end of the cycle.
 
+## Extra Work Done:
+- [ ] Watch FunFunFunction's videos on [Functional Programming](https://www.youtube.com/playlist?list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84)
+- [ ] Re-create a new learning tool as an alternative to the Mostly Adequate Guide
+
  
 ### Required
 
