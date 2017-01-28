@@ -23,7 +23,7 @@ CodeWars (just a heads up: you're required to answer a couple of super basic JS 
 
 ## Extra Work Done:
 - [x] Watch FunFunFunction's videos on [Functional Programming](https://www.youtube.com/playlist?list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84)
-- [ ] Re-create a new learning tool as an alternative to the Mostly Adequate Guide
+- [ ] [Re-create a new learning tool as an alternative to the Mostly Adequate Guide](https://github.com/arayi/conversational-functional)
 
  
 ### Required
